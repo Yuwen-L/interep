@@ -27,7 +27,7 @@ Extensive penalized variable selection methods have been developed in the past t
 <!-- end list -->
 
     install.packages("devtools")
-    devtools::install_github("cenwu/emBayes")
+    devtools::install_github("Yuwen-L/interep")
     
   - Released versions of interep are available on CRAN
     [(link)](https://cran.r-project.org/package=interep), and can be
