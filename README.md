@@ -22,7 +22,13 @@ coverage](https://codecov.io/gh/feizhoustat/interep/branch/master/graph/badge.sv
 Extensive penalized variable selection methods have been developed in the past two decades for analyzing high dimensional omics data, such as gene expressions, single nucleotide polymorphisms (SNPs), copy number variations (CNVs) and others. However, lipidomics data have been rarely investigated by using high dimensional variable selection methods. This package incorporates our recently developed penalization procedures to conduct interaction analysis for high dimensional lipidomics data with repeated measurements. The core module of this package is developed in C++. The development of this software package and the associated statistical methods have been partially supported by an Innovative Research Award from Johnson Cancer Research Center, Kansas State University.
 
 ## How to install
+    - To install from Github, run these two lines of code in R
 
+<!-- end list -->
+
+    install.packages("devtools")
+    devtools::install_github("cenwu/emBayes")
+    
   - Released versions of interep are available on CRAN
     [(link)](https://cran.r-project.org/package=interep), and can be
     installed within R via
