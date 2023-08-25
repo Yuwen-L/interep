@@ -89,7 +89,7 @@ interep <- function(e,g,y,beta0,corre,pmethod,lam1,lam2,maxits){
     diff=mean(abs(beta.new-beta))
     converge = (diff < 1e-3)
     iter = iter+1
-    cat("iter",iter,"diff",diff,"\n")
+    #cat("iter",iter,"diff",diff,"\n")
   }
   coef=beta.new
   return(coef)
