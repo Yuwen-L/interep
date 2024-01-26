@@ -14,7 +14,7 @@ LinkingTo: Rcpp, RcppArmadillo
 URL: https://github.com/feizhoustat/interep
 BugReports: https://github.com/feizhoustat/interep/issues
 NeedsCompilation: yes
-Packaged: 2024-01-26 00:06:19 UTC; 26057
+Packaged: 2024-01-26 04:44:26 UTC; 26057
 Repository: CRAN
 Date/Publication: 2023-09-04 23:40:04 UTC
 RoxygenNote: 7.2.3
